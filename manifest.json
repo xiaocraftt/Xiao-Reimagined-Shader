@@ -1,0 +1,19 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Xiao Reimagined is Vibrant Visuals Pack For Minecraft Bedrock.",
+    "name": "Xiao Reimagined",
+    "uuid": "24719a64-0752-477b-b540-467c9fe4c6a6",
+    "version": [2, 5, 0],
+    "min_engine_version": [1, 21, 90]
+  },
+  "modules": [
+    {
+      "description": "Xiao Reimagined Shader Module",
+      "type": "resources",
+      "uuid": "f8e96b64-569a-4080-a8a3-e193ed446289",
+      "version": [2, 5, 0]
+   }
+      ],
+      "capabilities" : ["pbr"]
+    }

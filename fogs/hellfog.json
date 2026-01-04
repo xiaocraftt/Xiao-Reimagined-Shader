@@ -1,0 +1,40 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "va:nether_hell_fog"
+    },
+
+    "distance": {
+      "air": {
+        "fog_start": 56.0,
+        "fog_end": 192.0,
+        "fog_color": "#9E2F18",
+        "render_distance_type": "fixed"
+      }
+    },
+
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.11,
+          "uniform": true
+        }
+      },
+
+      "media_coefficients": {
+        "air": {
+          "scattering": [0.022, 0.018, 0.012],
+          "absorption": [0.010, 0.020, 0.045]
+        }
+      },
+
+      "henyey_greenstein_g": {
+        "air": {
+          "henyey_greenstein_g": 0.20
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,73 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "va:mangrove_fog"
+    },
+
+    "distance": {
+      "air": {
+        "fog_start": 0.90,
+        "fog_end": 1.0,
+        "fog_color": "#3E4A3F",
+        "render_distance_type": "render"
+      },
+
+      "water": {
+        "fog_start": 0.0,
+        "fog_end": 100.0,
+        "fog_color": "#1F2E2A",
+        "render_distance_type": "fixed"
+      },
+
+      "weather": {
+        "fog_start": 0.75,
+        "fog_end": 1.0,
+        "fog_color": "#2A332D",
+        "render_distance_type": "render"
+      }
+    },
+
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.065,
+          "uniform": false,
+          "max_density_height": 55,
+          "zero_density_height": 130
+        },
+
+        "water": {
+          "max_density": 0.0,
+          "uniform": true
+        },
+
+        "weather": {
+          "max_density": 0.40,
+          "uniform": true
+        }
+      },
+
+      "media_coefficients": {
+        "air": {
+          "scattering": [0.030, 0.045, 0.028],
+          "absorption": [0.045, 0.055, 0.040]
+        },
+
+        "water": {
+          "scattering": [0.0, 0.0, 0.0],
+          "absorption": [0.0, 0.0, 0.0]
+        }
+      },
+
+      "henyey_greenstein_g": {
+        "air": {
+          "henyey_greenstein_g": 0.68
+        },
+        "water": {
+          "henyey_greenstein_g": 0.45
+        }
+      }
+    }
+  }
+}

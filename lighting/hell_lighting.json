@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:lighting_settings": {
+    "description": {
+      "identifier": "va:nether_lighting"
+    },
+
+    "directional_lights": {
+      "sun": {
+        "illuminance": {
+          "0.0": 14
+        },
+        "color": [255, 125, 60]
+      },
+      "moon": {
+        "illuminance": {
+          "0.0": 0
+        },
+        "color": [255, 255, 255]
+      }
+    },
+
+    "ambient": {
+      "illuminance": 0.72,
+      "color": [185, 80, 35]
+    },
+
+    "emissive": {
+      "desaturation": 0.05
+    },
+
+    "sky": {
+      "intensity": 0.18
+    }
+  }
+}
+
