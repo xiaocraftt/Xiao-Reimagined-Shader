@@ -7,23 +7,23 @@
 
     "distance": {
       "air": {
-        "fog_start": 0.92,
+        "fog_start": 0.90,
         "fog_end": 1.0,
-        "fog_color": "#F2D6A2",
+        "fog_color": "#F3DDB3",
         "render_distance_type": "render"
       },
 
       "water": {
         "fog_start": 0.0,
         "fog_end": 120.0,
-        "fog_color": "#B88A5A",
+        "fog_color": "#B18458",
         "render_distance_type": "fixed"
       },
 
       "weather": {
-        "fog_start": 0.88,
+        "fog_start": 0.86,
         "fog_end": 1.0,
-        "fog_color": "#C9B08A",
+        "fog_color": "#D2BB95",
         "render_distance_type": "render"
       }
     },
@@ -31,28 +31,28 @@
     "volumetric": {
       "density": {
         "air": {
-          "max_density": 0.028,
+          "max_density": 0.024,
           "uniform": false,
-          "max_density_height": 85,
-          "zero_density_height": 190
+          "max_density_height": 90,
+          "zero_density_height": 210
         },
 
         "weather": {
-          "max_density": 0.22,
+          "max_density": 0.20,
           "uniform": true
         }
       },
 
       "media_coefficients": {
         "air": {
-          "scattering": [0.065, 0.055, 0.040],
-          "absorption": [0.020, 0.015, 0.008]
+          "scattering": [0.060, 0.052, 0.038],
+          "absorption": [0.018, 0.014, 0.009]
         }
       },
 
       "henyey_greenstein_g": {
         "air": {
-          "henyey_greenstein_g": 0.48
+          "henyey_greenstein_g": 0.44
         }
       }
     }

@@ -5,14 +5,17 @@
       "identifier": "snowy_slopes"
     },
     "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#D5E1EE"
+      },
       "minecraft:fog_appearance": {
         "fog_identifier": "va:snow_fog"
       },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "va:snow_atmosphere"
+      },
       "minecraft:water_appearance": {
         "surface_color": "#3A5E8A"
-      },
-      "minecraft:sky_color": {
-        "sky_color": "#D5E1EE"
       }
     }
   }

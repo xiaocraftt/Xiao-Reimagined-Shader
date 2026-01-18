@@ -6,22 +6,16 @@
     },
     "components": {
       "minecraft:sky_color": {
-        "sky_color": "#6A3EB0"
+        "sky_color": "#7218bb"
       },
       "minecraft:fog_appearance": {
         "fog_identifier": "va:end_fog"
-      },
-      "minecraft:color_grading_identifier": {
-        "color_grading_identifier": "va:end_color_grading"
       },
       "minecraft:atmosphere_identifier": {
         "atmosphere_identifier": "va:end_atmosphere"
       },
       "minecraft:lighting_identifier": {
         "lighting_identifier": "va:end_lighting"
-      },
-      "minecraft:water_appearance": {
-        "surface_color": "#5C49A8"
       }
     }
   }

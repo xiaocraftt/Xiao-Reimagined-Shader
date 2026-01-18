@@ -6,19 +6,19 @@
     },
 
     "sky_zenith_color": {
-      "0.0": [120, 70, 185]
+      "0.0": [155, 90, 210]
     },
 
     "sky_horizon_color": {
-      "0.0": [165, 105, 215]
+      "0.0": [200, 130, 230]
     },
 
     "rayleigh_strength": {
-      "0.0": 12.5
+      "0.0": 8.5
     },
 
     "sun_mie_strength": {
-      "0.0": 4.2
+      "0.0": 1.6
     },
 
     "moon_mie_strength": {
@@ -26,15 +26,14 @@
     },
 
     "sun_glare_shape": {
-      "0.0": 0.06
+      "0.0": 0.0
     },
 
     "horizon_blend_stops": {
-      "min": 0.26,
-      "start": 0.60,
-      "mie_start": 0.88,
-      "max": 0.90
+      "min": 0.28,
+      "start": 0.70,
+      "mie_start": 0.93,
+      "max": 0.50
     }
   }
 }
-

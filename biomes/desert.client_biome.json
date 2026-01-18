@@ -5,14 +5,17 @@
       "identifier": "desert"
     },
     "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#a89166"
+      },
       "minecraft:fog_appearance": {
         "fog_identifier": "va:desert_fog"
       },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "va:desert_atmosphere"
+      },
       "minecraft:water_appearance": {
         "surface_color": "#B88A5A"
-      },
-      "minecraft:sky_color": {
-        "sky_color": "#a89166"
       }
     }
   }
